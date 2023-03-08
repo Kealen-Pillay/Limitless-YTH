@@ -1,0 +1,59 @@
+p {
+    font-family: "Surfing Capital";
+    color: white;
+    font-size: 200px;
+    position: absolute;
+    transform: translate(-50%, -150%);
+    top: 50%;
+    left: 50%;
+}
+
+#img-container {
+    position: relative;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    border-radius: 0;
+    width: 150px;
+    height: 60px;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #c91c79;
+    background-color: #1e1e1e;
+}
+
+button:hover {
+    cursor: pointer;
+    transition: 0.5s ease-in-out 0s;
+    transform: scale(1.05);
+}
+
+span {
+    font-family: "Surfing Capital";
+    color: white;
+}
+
+body {
+    background: #1e1e1e;
+}
+
+/**
+    Iphone XR, SE, 12 and >
+ */
+@media only screen and (max-width: 414px) {
+    p {
+        font-size: 75px;
+        position: absolute;
+        transform: translate(-50%, -150%);
+        top: 50%;
+        left: 50%;
+    }
+}
+
