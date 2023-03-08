@@ -1,6 +1,6 @@
 import React from "react";
 
-const ContactScreen = () => {
+const ContactScreen = (): JSX.Element => {
     return (
         <div>
             Contact

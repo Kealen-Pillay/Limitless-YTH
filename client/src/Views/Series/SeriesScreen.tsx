@@ -1,6 +1,6 @@
 import react from "react";
 
-const SeriesScreen = () => {
+const SeriesScreen = (): JSX.Element => {
     return (
         <div>
             Series

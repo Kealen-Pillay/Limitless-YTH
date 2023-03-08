@@ -1,10 +1,17 @@
 import React from "react";
+import "./HomeScreen.css";
 
-const HomeScreen = () => {
+const HomeScreen = (): JSX.Element => {
     return (
-        <div>
-            Home
-        </div>
+        <>
+            <section>
+                <div id="title-container">
+                    <p>
+                        Limitless
+                    </p>
+                </div>
+            </section>
+        </>
     );
 }
 

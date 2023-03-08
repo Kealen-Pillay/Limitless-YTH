@@ -1,6 +1,6 @@
 import react from "react";
 
-const AboutScreen = () => {
+const AboutScreen = (): JSX.Element => {
     return (
         <div>
             About

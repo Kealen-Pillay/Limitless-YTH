@@ -1,6 +1,6 @@
 import react from "react";
 
-const NoticesScreen = () => {
+const NoticesScreen = (): JSX.Element => {
     return (
         <div>
             Notices
