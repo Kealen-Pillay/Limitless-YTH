@@ -4,8 +4,14 @@
   "main": "index.js",
   "author": "kealen pillay",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
+    "@types/node": "^18.14.6",
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "typescript": "^4.9.5"
   }
 }
