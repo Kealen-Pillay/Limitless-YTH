@@ -21,12 +21,17 @@
   align-items: center;
   justify-content: center;
   color: white;
-  font-family: 'Carter One', cursive;
+  font-family: "Surfing Capital";
   font-size: 120px;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+@font-face {
+  font-family: "Surfing Capital";
+  src: local("Surfing Capital"), url("./fonts/Surfing Capital.ttf") format("truetype");
 }
 
 @keyframes App-logo-spin {

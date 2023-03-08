@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import "./fonts/Surfing Capital.ttf";
 
 const App = () => {
     return (
