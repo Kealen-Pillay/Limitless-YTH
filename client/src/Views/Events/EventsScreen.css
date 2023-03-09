@@ -1,0 +1,18 @@
+.events-container {
+    position: relative;
+    text-align: center;
+}
+
+.section-header {
+    font-size: 120px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-40%);
+}
+
+@media only screen and (max-width: 414px) {
+    .section-header {
+        font-size: 40px;
+    }
+}

@@ -7,13 +7,11 @@ const HomeScreen = (): JSX.Element => {
     return (
         <>
             <section>
-                <div id="img-container">
-                    <Navbar/>
-                    <img src={Hero} alt="hero"/>
-                    <p>
-                        Limitless
-                    </p>
-                </div>
+                <Navbar/>
+                <img src={Hero} alt="hero"/>
+                <p>
+                    Limitless
+                </p>
             </section>
         </>
     );
