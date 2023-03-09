@@ -17,22 +17,23 @@ img {
     width: 100%;
 }
 
-button {
+#see-more-btn {
     border-radius: 0;
     width: 150px;
     height: 60px;
     position: absolute;
     left: 50%;
-    top: 100%;
-    transform: translate(-50%, -50%);
-    border: 2px solid #c91c79;
+    top: 80%;
+    transform: translate(-50%, -100%);
+    border: 2px solid white;
     background-color: #1e1e1e;
 }
 
-button:hover {
+#see-more-btn :hover {
     cursor: pointer;
     transition: 0.5s ease-in-out 0s;
-    transform: scale(1.05);
+    transform: scale(1);
+    background-color: #2f2f2f;
 }
 
 span {

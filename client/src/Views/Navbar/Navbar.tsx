@@ -5,9 +5,9 @@ const Navbar = (): JSX.Element => {
     return (
         <>
             <ul>
-                <li>
+                <button id="nav-btn">
                     <a href="#home">Home</a>
-                </li>
+                </button>
                 <li>
                     <a href="#notices">Notices</a>
                 </li>

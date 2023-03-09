@@ -2,9 +2,16 @@ import react from "react";
 
 const NoticesScreen = (): JSX.Element => {
     return (
-        <div>
-            Notices
-        </div>
+        <>
+            <section>
+                <div id="notices-container">
+                    <p>
+                        notices
+                    </p>
+                </div>
+
+            </section>
+        </>
     );
 };
 

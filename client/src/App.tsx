@@ -11,8 +11,8 @@ import Navbar from "./Views/Navbar/Navbar";
 const App = (): JSX.Element => {
     return (
         <div>
-            <Navbar />
             <HomeScreen />
+            {/*<NoticesScreen />*/}
         </div>
     );
 }
