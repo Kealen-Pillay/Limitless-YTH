@@ -2,8 +2,8 @@ import express, {Express} from "express";
 import mongoose, {ConnectOptions} from "mongoose";
 import cors from "cors";
 import router from "./routes";
-const app: Express = express();
 
+const app: Express = express();
 const PORT: string | number = process.env.PORT || 5000;
 
 app.use(cors());
