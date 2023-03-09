@@ -4,6 +4,10 @@ interface IEvent {
     elapsed: boolean,
 }
 
+interface EventProps {
+    event: IEvent,
+}
+
 type ApiDataType = {
     message: string,
     status: string,
@@ -11,4 +15,4 @@ type ApiDataType = {
     event?: IEvent,
 }
 
-export {IEvent, ApiDataType};
+export {IEvent, EventProps, ApiDataType};
