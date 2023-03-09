@@ -8,17 +8,15 @@ const HomeScreen = (): JSX.Element => {
         <>
             <section>
                 <div id="img-container">
-                    <Navbar />
+                    <Navbar/>
                     <img src={Hero} alt="hero"/>
-                        <p>
-                            Limitless
-                        </p>
+                    <p>
+                        Limitless
+                    </p>
                 </div>
-                <div>
-                    <button id="see-more-btn">
-                        <span>See More</span>
-                    </button>
-                </div>
+                <button id="see-more-btn">
+                    <span>See More</span>
+                </button>
             </section>
         </>
     );

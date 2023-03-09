@@ -1,29 +1,29 @@
-li {
-    font-family: "Surfing Capital";
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 10px 0 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 100;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 20px;
     color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 6px 15px 6px 15px;
+    font-weight: 600;
+    border-radius: 20px;
     margin: 0 30px 0 0;
 }
 
-a {
-    font-size: 40px;
-    color: white;
-    font-family: "Surfing Capital";
-    margin: 0 30px 0 0;
-}
-
-a:hover {
-}
-
-#nav-btn {
-    background: none;
-    border: none;
-}
-
-#nav-btn:hover {
-    border: 2px solid white;
-    border-radius: 5px;
-    opacity: 0.5;
-
+.navigation a:hover, .navigation a.active {
+    background-color: white;
+    color: black;
 }
 
 ul {
