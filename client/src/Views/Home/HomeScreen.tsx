@@ -14,9 +14,6 @@ const HomeScreen = (): JSX.Element => {
                         Limitless
                     </p>
                 </div>
-                <button id="see-more-btn">
-                    <span>See More</span>
-                </button>
             </section>
         </>
     );
