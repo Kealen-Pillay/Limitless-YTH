@@ -4,18 +4,24 @@
     font-weight: 600;
     font-size: 30px;
     position: relative;
-    margin: 10px 0 10px 0;
 }
 
-@media only screen and (max-width: 460px) {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
     .event {
         font-size: 10px;
         margin: 5px 0 5px 0;
     }
 }
 
-/*@media only screen and (min-width: 415px) {*/
-/*    .event {*/
-/*        font-size: 15px;*/
-/*    }*/
-/*}*/
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/*@media only screen and (min-width: 600px) {...}*/
+
+/*!* Medium devices (landscape tablets, 768px and up) *!*/
+/*@media only screen and (min-width: 768px) {...}*/
+
+/*!* Large devices (laptops/desktops, 992px and up) *!*/
+/*@media only screen and (min-width: 992px) {...}*/
+
+/*!* Extra large devices (large laptops and desktops, 1200px and up) *!*/
+/*@media only screen and (min-width: 1200px) {...}*/

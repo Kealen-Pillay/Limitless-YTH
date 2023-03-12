@@ -3,12 +3,12 @@
     text-align: center;
 }
 
-.section-header {
-    font-size: 120px;
+.events-header {
+    font-family: "Surfing Capital";
+    color: white;
     position: absolute;
     top: 0;
-    left: 0;
-    transform: translateY(-40%);
+    width: 100%;
 }
 
 .events-list {
@@ -19,17 +19,24 @@
     align-items: center;
     flex-direction: column;
     position: absolute;
-    top: 30%;
+    top: 0;
 }
 
-@media only screen and (max-width: 460px) {
-    .section-header {
-        font-size: 40px;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .events-header {
+        font-size: 35px;
     }
 }
 
-/*@media only screen and (min-width: 415px) {*/
-/*    .section-header {*/
-/*        font-size: 45px;*/
-/*    }*/
-/*}*/
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/*@media only screen and (min-width: 600px) {...}*/
+
+/*!* Medium devices (landscape tablets, 768px and up) *!*/
+/*@media only screen and (min-width: 768px) {...}*/
+
+/*!* Large devices (laptops/desktops, 992px and up) *!*/
+/*@media only screen and (min-width: 992px) {...}*/
+
+/*!* Extra large devices (large laptops and desktops, 1200px and up) *!*/
+/*@media only screen and (min-width: 1200px) {...}*/

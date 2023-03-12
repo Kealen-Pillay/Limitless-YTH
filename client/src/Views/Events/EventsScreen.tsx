@@ -25,7 +25,7 @@ const EventsScreen = (): JSX.Element => {
             <section>
                 <div className="events-container">
                     <img src={Waves} alt={"waves"} className="waves-img"/>
-                    <p className="section-header">
+                    <p className="events-header">
                         Upcoming Events
                     </p>
                     <div className="events-list">
