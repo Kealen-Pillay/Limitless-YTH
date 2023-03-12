@@ -1,6 +1,8 @@
-p {
+.event {
     color: white;
-    font-family: "Surfing Capital";
-    font-size: 40px;
-    position: absolute;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 30px;
+    position: relative;
+    margin: 10px 0 10px 0;
 }

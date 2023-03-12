@@ -14,8 +14,8 @@ const EventsScreen = (): JSX.Element => {
 
     const fetchEvents = (): void => {
         getEvents()
-            .then(({data: {upcomingEvents}}: IEvent[] | any) => {
-                setEvents(upcomingEvents)
+            .then(({data: {events}}: IEvent[] | any) => {
+                setEvents(events)
             })
             .catch((err: Error) => console.log(err));
     };
@@ -28,11 +28,13 @@ const EventsScreen = (): JSX.Element => {
                     <p className="section-header">
                         Upcoming Events
                     </p>
-                    {events && events.map((event: IEvent) => {
-                        return (
-                            <EventItem event={event}/>
-                        );
-                    })}
+                    <div className="events-list">
+                        {events && events.map((event: IEvent) => {
+                            return (
+                                <EventItem key={event._id} event={event}/>
+                            );
+                        })}
+                    </div>
                 </div>
             </section>
         </>

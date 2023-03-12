@@ -1,4 +1,5 @@
 interface IEvent {
+    _id?: string,
     name: string,
     date: string,
     elapsed: boolean,
