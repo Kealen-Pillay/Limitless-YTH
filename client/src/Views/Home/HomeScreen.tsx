@@ -9,7 +9,7 @@ const HomeScreen = (): JSX.Element => {
             <section>
                 <Navbar/>
                 <img src={Hero} alt="hero"/>
-                <p>
+                <p className="home-header">
                     Limitless
                 </p>
             </section>

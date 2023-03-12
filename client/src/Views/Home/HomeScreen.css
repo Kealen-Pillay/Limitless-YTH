@@ -1,4 +1,4 @@
-p {
+.home-header {
     font-family: "Surfing Capital";
     color: white;
     font-size: 250px;
@@ -18,13 +18,43 @@ body {
     min-height: 100vh;
 }
 
-/**
-    Iphone XR, SE, 12 and >
- */
-@media only screen and (max-width: 414px) {
-    p {
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .home-header {
         font-size: 75px;
+        top: 15%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .home-header {
+        font-size: 120px;
         top: 10%;
+    }
+}
+
+/*!* Medium devices (landscape tablets, 768px and up) *!*/
+@media only screen and (min-width: 768px) {
+    .home-header {
+        font-size: 150px;
+        top: 5%;
+    }
+}
+
+/*!* Large devices (laptops/desktops, 992px and up) *!*/
+@media only screen and (min-width: 992px) {
+    .home-header {
+        font-size: 200px;
+        top: 5%;
+    }
+}
+
+/*!* Extra large devices (large laptops and desktops, 1200px and up) *!*/
+@media only screen and (min-width: 1200px) {
+    .home-header {
+        font-size: 250px;
+        top: 5%;
     }
 }
 

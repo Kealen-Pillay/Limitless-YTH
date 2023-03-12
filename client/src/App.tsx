@@ -9,7 +9,7 @@ const App = (): JSX.Element => {
         <>
             <div className="container">
                 <HomeScreen/>
-                <EventsScreen/>
+                {/*<EventsScreen/>*/}
             </div>
         </>
     );

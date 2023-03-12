@@ -6,3 +6,16 @@
     position: relative;
     margin: 10px 0 10px 0;
 }
+
+@media only screen and (max-width: 460px) {
+    .event {
+        font-size: 10px;
+        margin: 5px 0 5px 0;
+    }
+}
+
+/*@media only screen and (min-width: 415px) {*/
+/*    .event {*/
+/*        font-size: 15px;*/
+/*    }*/
+/*}*/
