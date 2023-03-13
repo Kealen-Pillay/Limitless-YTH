@@ -12,7 +12,12 @@ header {
     z-index: 100;
 }
 
-.navigation a {
+.web-navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.web-navbar a {
     text-decoration: none;
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -22,7 +27,7 @@ header {
     margin: 0 30px 0 0;
 }
 
-.navigation a:hover, .navigation a.active {
+.web-navbar a:hover, .web-navbar a.active {
     background-color: white;
     color: black;
 }
@@ -47,11 +52,38 @@ ul {
     }
 
     .web-navbar {
-        display: none;
+        position: absolute;
+        height: 200px;
+        top: 30px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        transition: 0.2s;
+        background: #1e1e1e;
+        flex-direction: column;
+        opacity: 0;
+        border: none;
+    }
+
+    .web-navbar a {
+        font-size: 10px;
+        margin: 0 5px 0 0;
+    }
+
+    .web-navbar.active {
+        opacity: 1;
     }
 
     .mobile-navbar {
         display: block;
+        cursor: pointer;
+    }
+
+    .mobile-navbar .line {
+        width: 20px;
+        height: 1px;
+        background: white;
+        margin: 6px 0 0 0;
     }
 }
 
@@ -68,10 +100,9 @@ ul {
         display: none;
     }
 
-    .navigation a {
+    .web-navbar a {
         font-size: 15px;
     }
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -79,7 +110,7 @@ ul {
         padding: 10px 10px 10px 0;
     }
 
-    .navigation a {
+    .web-navbar a {
         font-size: 20px;
     }
 }
