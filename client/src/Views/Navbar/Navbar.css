@@ -1,9 +1,11 @@
 header {
-    position: absolute;
+    position: fixed;
+    background-color: #1e1e1e;
+    height: 50px;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 30px 10px 0 0;
+    padding: 10px 10px 10px 0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -12,7 +14,6 @@ header {
 
 .navigation a {
     text-decoration: none;
-    font-size: 20px;
     color: white;
     font-family: 'Poppins', sans-serif;
     padding: 6px 15px 6px 15px;
@@ -37,4 +38,54 @@ ul {
     transform: translate(-50%, -50%);
     background-color: #1e1e1e;
     opacity: 0.8;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 0 10px 0 0;
+        height: 40px;
+    }
+
+    .web-navbar {
+        display: none;
+    }
+
+    .mobile-navbar {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    header {
+        padding: 10px 10px 10px 0;
+    }
+
+    .web-navbar {
+        display: block;
+    }
+
+    .mobile-navbar {
+        display: none;
+    }
+
+    .navigation a {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        padding: 10px 10px 10px 0;
+    }
+
+    .navigation a {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    header {
+        padding: 15px 10px 15px 0;
+    }
 }
