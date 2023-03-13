@@ -74,15 +74,19 @@ ul {
     }
 
     .mobile-navbar {
-        display: block;
+        display: flex;
+        width: 20px;
+        height: 30px;
+        justify-content: space-evenly;
+        flex-direction: column;
         cursor: pointer;
+        margin-right: 10px;
     }
 
     .mobile-navbar .line {
         width: 20px;
         height: 1px;
         background: white;
-        margin: 5px 0 0 0;
     }
 }
 
