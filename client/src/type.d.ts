@@ -1,3 +1,6 @@
+/**
+ * ******************** Event Types ********************
+ */
 interface IEvent {
     _id?: string,
     name: string,
@@ -9,11 +12,27 @@ interface EventProps {
     event: IEvent,
 }
 
-type ApiDataType = {
+type ApiEventDataType = {
     message: string,
     status: string,
     events: IEvent[],
     event?: IEvent,
 }
 
-export {IEvent, EventProps, ApiDataType};
+/**
+ * ******************** About Types ********************
+ */
+
+interface IAbout {
+    body: string,
+    verse: string,
+    scripture: string
+}
+
+type ApiAboutDataType = {
+    message: string,
+    status: string,
+    about?: IAbout
+}
+
+export {IEvent, EventProps, ApiEventDataType, IAbout, ApiAboutDataType};
