@@ -97,6 +97,7 @@ ul {
 
     .web-navbar {
         display: block;
+        opacity: 1;
     }
 
     .mobile-navbar {
