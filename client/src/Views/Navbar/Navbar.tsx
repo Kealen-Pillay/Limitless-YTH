@@ -3,10 +3,10 @@ import "./Navbar.css"
 
 const Navbar = (): JSX.Element => {
 
-    window.addEventListener("click",function () {
-        let hamburgerMenu:any = document.querySelector(".mobile-navbar");
-        hamburgerMenu.onclick = function() {
-            let webNavigationBar: any = document.querySelector(".web-navbar");
+    window.addEventListener("click", function () {
+        const hamburgerMenu: any = document.querySelector(".mobile-navbar");
+        hamburgerMenu.onclick = function () {
+            const webNavigationBar: any = document.querySelector(".web-navbar");
             webNavigationBar.classList.toggle("active");
         }
     });
