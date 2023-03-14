@@ -6,7 +6,7 @@ import Navbar from "../Navbar/Navbar";
 const HomeScreen = (): JSX.Element => {
     return (
         <>
-            <section>
+            <section id="home">
                 <Navbar/>
                 <img src={Hero} alt="hero"/>
                 <p className="home-header">

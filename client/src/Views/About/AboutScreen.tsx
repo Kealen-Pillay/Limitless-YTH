@@ -1,7 +1,7 @@
-import react, {useEffect, useState} from "react";
+import {useEffect, useState} from "react";
 import About from "../../images/About.png";
 import "../About/AboutScreen.css";
-import {ApiAboutDataType, IAbout} from "../../type";
+import {IAbout} from "../../type";
 import {getAbout} from "../../API";
 
 const AboutScreen = (): JSX.Element => {
@@ -21,7 +21,7 @@ const AboutScreen = (): JSX.Element => {
 
     return (
         <>
-            <section>
+            <section id="about">
                 <div className="about-container">
                     <img src={About} alt={"about-img"}/>
                     <p className="about-header">

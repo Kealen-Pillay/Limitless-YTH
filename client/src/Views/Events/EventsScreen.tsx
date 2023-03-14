@@ -22,7 +22,7 @@ const EventsScreen = (): JSX.Element => {
 
     return (
         <>
-            <section>
+            <section id="events">
                 <div className="events-container">
                     <img src={Waves} alt={"waves"}/>
                     <p className="events-header">
