@@ -5,6 +5,7 @@ import HomeScreen from "./Views/Home/HomeScreen";
 import EventsScreen from "./Views/Events/EventsScreen";
 import AboutScreen from "./Views/About/AboutScreen";
 import GalleryScreen from "./Views/Gallery/GalleryScreen";
+import ContactScreen from "./Views/Contact/ContactScreen";
 
 const App = (): JSX.Element => {
     return (
@@ -14,6 +15,7 @@ const App = (): JSX.Element => {
                 <AboutScreen />
                 <EventsScreen/>
                 <GalleryScreen />
+                <ContactScreen />
             </div>
         </>
     );

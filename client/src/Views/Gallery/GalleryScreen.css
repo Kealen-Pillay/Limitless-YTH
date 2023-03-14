@@ -23,20 +23,25 @@
 }
 
 @media only screen and (min-width: 600px) {
-    .gallery-header {
+    .slide-img {
+        height: 700px;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    .gallery-header {
+    .slide-img {
+        height: 800px;
     }
 }
 
 @media only screen and (min-width: 992px) {
-    .gallery-header {
+    .slide-img {
+        height: 900px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
-
+    .slide-img {
+        height: 1000px;
+    }
 }

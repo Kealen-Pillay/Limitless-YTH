@@ -1,0 +1,40 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-header {
+    font-family: "Surfing Capital";
+    margin: 0;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-header {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .contact-header {
+        font-size: 70px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .contact-header {
+        font-size: 90px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .contact-header {
+        font-size: 120px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .contact-header {
+        font-size: 200px;
+    }
+}
