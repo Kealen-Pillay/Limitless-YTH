@@ -1,4 +1,3 @@
-import react from "react";
 import "./Navbar.css"
 
 const Navbar = (): JSX.Element => {
@@ -15,7 +14,7 @@ const Navbar = (): JSX.Element => {
         <>
             <header>
                 <nav className="web-navbar">
-                    <a className="active" href="#home">Home</a>
+                    <a href="#home">Home</a>
                     <a href="#events">Events</a>
                     <a href="#series">Series</a>
                     <a href="#about">About</a>
