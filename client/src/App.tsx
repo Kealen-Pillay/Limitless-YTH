@@ -4,6 +4,7 @@ import "./fonts/Surfing Capital.ttf";
 import HomeScreen from "./Views/Home/HomeScreen";
 import EventsScreen from "./Views/Events/EventsScreen";
 import AboutScreen from "./Views/About/AboutScreen";
+import GalleryScreen from "./Views/Gallery/GalleryScreen";
 
 const App = (): JSX.Element => {
     return (
@@ -12,6 +13,7 @@ const App = (): JSX.Element => {
                 <HomeScreen/>
                 <AboutScreen />
                 <EventsScreen/>
+                <GalleryScreen />
             </div>
         </>
     );

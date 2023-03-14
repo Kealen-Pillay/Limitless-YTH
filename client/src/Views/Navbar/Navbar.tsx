@@ -15,9 +15,9 @@ const Navbar = (): JSX.Element => {
             <header>
                 <nav className="web-navbar">
                     <a href="#home">Home</a>
-                    <a href="#events">Events</a>
-                    <a href="#series">Series</a>
                     <a href="#about">About</a>
+                    <a href="#events">Events</a>
+                    <a href="#gallery">Gallery</a>
                     <a href="#contact">Contact</a>
                 </nav>
                 <div className="mobile-navbar">
