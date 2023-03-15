@@ -28,7 +28,7 @@ form {
     flex-direction: column;
 }
 
-.personals-input, .email-input-container {
+.personals-input, .email-input-container, .subject-input-container, .message-input-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,6 +39,13 @@ span {
     font-family: "Poppins";
     font-weight: 400;
     color: black;
+    margin-bottom: 5px;
+}
+
+textarea {
+    resize: none;
+    border: none;
+    box-shadow: #1e1e1e;
 }
 
 .form-container input {
