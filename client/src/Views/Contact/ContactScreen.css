@@ -1,23 +1,98 @@
 .contact-container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .contact-header {
     font-family: "Surfing Capital";
-    margin: 0;
     color: white;
+    margin: 20px 0 15px 0;
+}
+
+.form-container {
+    display: block;
+    justify-content: center;
+    background-color: #e2e8ec;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-left: 15%;
+}
+
+form {
+    display: flex;
+    height: 200px;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.personals-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+span {
+    font-family: "Poppins";
+    font-weight: 400;
+    color: black;
+}
+
+.personals-input input {
+    width: 90%;
+    border-radius: 1px;
+    border: none;
+    box-shadow: #1e1e1e;
+}
+
+.personals-input-container {
+    display: flex;
+    width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
     .contact-header {
         font-size: 50px;
     }
+
+    span {
+        font-size: 15px;
+    }
+
+    .personals-input-container {
+        flex-direction: column;
+        height: 40%;
+        justify-content: space-between;
+        padding-top: 15px;
+    }
+
+    .form-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+
+    form {
+        width: 70%;
+    }
+
+    .personals-input input {
+        height: 30px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
     .contact-header {
         font-size: 70px;
+    }
+
+    span {
+        font-size: 15px;
     }
 }
 
@@ -35,6 +110,18 @@
 
 @media only screen and (min-width: 1200px) {
     .contact-header {
-        font-size: 200px;
+        font-size: 150px;
+    }
+
+    .form-container {
+        width: 1200px;
+    }
+
+    .personals-input {
+        width: 50%;
+    }
+
+    span {
+        font-size: 30px;
     }
 }

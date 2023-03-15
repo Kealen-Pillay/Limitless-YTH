@@ -9,6 +9,20 @@ const ContactScreen = (): JSX.Element => {
                     <p className="contact-header">
                         Contact Us
                     </p>
+                    <div className="form-container">
+                        <form>
+                            <div className="personals-input-container">
+                                <div className="personals-input">
+                                    <span>Full Name</span>
+                                    <input type="text"/>
+                                </div>
+                                <div className="personals-input">
+                                    <span>Email</span>
+                                    <input type="text"/>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </section>
         </>
