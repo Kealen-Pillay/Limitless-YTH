@@ -8,7 +8,7 @@
 .contact-header {
     font-family: "Surfing Capital";
     color: white;
-    margin: 20px 0 15px 0;
+    margin: 20px 0 20px 0;
 }
 
 .form-container {
@@ -22,12 +22,13 @@
 
 form {
     display: flex;
-    height: 200px;
+    height: 500px;
     justify-content: flex-start;
     margin: 0;
+    flex-direction: column;
 }
 
-.personals-input {
+.personals-input, .email-input-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,14 +41,14 @@ span {
     color: black;
 }
 
-.personals-input input {
+.form-container input {
     width: 90%;
     border-radius: 1px;
     border: none;
     box-shadow: #1e1e1e;
 }
 
-.personals-input-container {
+.personals-input-container, .email-input-container {
     display: flex;
     width: 100%;
 }
@@ -63,7 +64,7 @@ span {
 
     .personals-input-container {
         flex-direction: column;
-        height: 40%;
+        height: 30%;
         justify-content: space-between;
         padding-top: 15px;
     }
@@ -79,7 +80,7 @@ span {
         width: 70%;
     }
 
-    .personals-input input {
+    .form-container input {
         height: 30px;
         width: 100%;
         margin-bottom: 20px;
