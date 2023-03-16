@@ -21,17 +21,19 @@ const ContactScreen = (): JSX.Element => {
                                     <input required type="number"/>
                                 </div>
                             </div>
-                            <div className="email-input-container">
-                                <span>Email</span>
-                                <input required type="email"/>
-                            </div>
-                            <div className="subject-input-container">
-                                <span>Subject</span>
-                                <input required type="text"/>
-                            </div>
-                            <div className="message-input-container">
-                                <span>Your Message</span>
-                                <textarea required/>
+                            <div className="other-contact-input-container">
+                                <div className="email-input-container">
+                                    <span>Email</span>
+                                    <input required type="email"/>
+                                </div>
+                                <div className="subject-input-container">
+                                    <span>Subject</span>
+                                    <input required type="text"/>
+                                </div>
+                                <div className="message-input-container">
+                                    <span>Your Message</span>
+                                    <textarea required/>
+                                </div>
                             </div>
                             <button>
                                 Send Message
