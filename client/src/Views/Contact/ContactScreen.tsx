@@ -18,7 +18,7 @@ const ContactScreen = (): JSX.Element => {
                                 </div>
                                 <div className="personals-input">
                                     <span>Phone Number</span>
-                                    <input required type="number"/>
+                                    <input required type="text"/>
                                 </div>
                             </div>
                             <div className="other-contact-input-container">
