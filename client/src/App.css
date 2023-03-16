@@ -1,8 +1,13 @@
 .App {
-  text-align: center;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    text-align: center;
 }
 
 @font-face {
-  font-family: "Surfing Capital";
-  src: local("Surfing Capital"), url("fonts/Surfing Capital.ttf") format("truetype");
+    font-family: "Surfing Capital";
+    src: local("Surfing Capital"), url("fonts/Surfing Capital.ttf") format("truetype");
 }

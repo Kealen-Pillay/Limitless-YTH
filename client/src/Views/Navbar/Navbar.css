@@ -1,8 +1,141 @@
-li {
-    font-family: "Surfing Capital";
-    color: white;
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 50px;
 }
 
-a {
+header {
+    position: fixed;
+    background-color: #1e1e1e;
+    height: 50px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10px 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 100;
+}
+
+.web-navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.web-navbar a {
+    text-decoration: none;
     color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 6px 15px 6px 15px;
+    font-weight: 600;
+    margin: 0 30px 0 0;
+}
+
+.web-navbar a:hover, .web-navbar a.active {
+    background-color: white;
+    color: black;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    list-style-type: none;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1e1e1e;
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 599px) {
+    header {
+        padding: 0 10px 0 0;
+        height: 40px;
+    }
+
+    .web-navbar {
+        position: absolute;
+        height: 200px;
+        top: 30px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        transition: 0.2s;
+        background: #1e1e1e;
+        flex-direction: column;
+        opacity: 0;
+        border: none;
+    }
+
+    .web-navbar a {
+        font-size: 10px;
+        margin: 0 5px 0 0;
+    }
+
+    .web-navbar.active {
+        opacity: 1;
+    }
+
+    .mobile-navbar {
+        display: flex;
+        width: 20px;
+        height: 30px;
+        justify-content: space-evenly;
+        flex-direction: column;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    .mobile-navbar .line {
+        width: 20px;
+        height: 1px;
+        background: white;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    header {
+        padding: 10px 10px 10px 0;
+    }
+
+    .web-navbar {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        height: auto;
+        opacity: 1;
+    }
+
+    .mobile-navbar {
+        display: none;
+    }
+
+    .web-navbar a {
+        font-size: 15px;
+        border-radius: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        padding: 10px 10px 10px 0;
+    }
+
+    .web-navbar a {
+        font-size: 20px;
+        border-radius: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    header {
+        padding: 15px 10px 15px 0;
+    }
+
+    .web-navbar a {
+        font-size: 20px;
+        border-radius: 20px;
+    }
 }

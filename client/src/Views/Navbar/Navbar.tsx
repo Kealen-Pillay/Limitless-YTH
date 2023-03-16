@@ -1,26 +1,31 @@
-import react from "react";
 import "./Navbar.css"
 
 const Navbar = (): JSX.Element => {
+
+    window.addEventListener("click", function () {
+        const hamburgerMenu: any = document.querySelector(".mobile-navbar");
+        hamburgerMenu.onclick = function () {
+            const webNavigationBar: any = document.querySelector(".web-navbar");
+            webNavigationBar.classList.toggle("active");
+        }
+    });
+
     return (
         <>
-            <ul>
-                <li>
+            <header>
+                <nav className="web-navbar">
                     <a href="#home">Home</a>
-                </li>
-                <li>
-                    <a href="#notices">Notices</a>
-                </li>
-                <li>
-                    <a href="#series">Series</a>
-                </li>
-                <li>
                     <a href="#about">About</a>
-                </li>
-                <li>
+                    <a href="#events">Events</a>
+                    <a href="#gallery">Gallery</a>
                     <a href="#contact">Contact</a>
-                </li>
-            </ul>
+                </nav>
+                <div className="mobile-navbar">
+                    <div className="line"></div>
+                    <div className="line"></div>
+                    <div className="line"></div>
+                </div>
+            </header>
         </>
     );
 };

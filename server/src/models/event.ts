@@ -1,7 +1,6 @@
 import {IEvent} from "../types/event";
 import {model, Schema} from "mongoose";
 
-
 const eventSchema: Schema = new Schema(
     {
         name: {

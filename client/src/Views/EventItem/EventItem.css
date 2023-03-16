@@ -1,0 +1,47 @@
+.event {
+    color: white;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 30px;
+    position: relative;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .event {
+        font-size: 10px;
+        margin: 5px 0 5px 0;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .event {
+        font-size: 15px;
+        margin: 5px 0 5px 0;
+    }
+}
+
+/*!* Medium devices (landscape tablets, 768px and up) *!*/
+@media only screen and (min-width: 768px) {
+    .event {
+        font-size: 25px;
+        margin: 5px 0 5px 0;
+    }
+}
+
+/*!* Large devices (laptops/desktops, 992px and up) *!*/
+@media only screen and (min-width: 992px) {
+    .event {
+        font-size: 25px;
+        margin: 5px 0 5px 0;
+    }
+}
+
+/*!* Extra large devices (large laptops and desktops, 1200px and up) *!*/
+@media only screen and (min-width: 1200px) {
+    .event {
+        font-size: 30px;
+        margin: 5px 0 5px 0;
+    }
+}

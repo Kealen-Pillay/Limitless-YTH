@@ -1,0 +1,85 @@
+.about-container {
+    position: relative;
+    text-align: center;
+}
+
+.about-header {
+    font-family: "Surfing Capital";
+    color: white;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    margin: 10px 0 0 0;
+}
+
+.about-body-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    top: 40%;
+    margin: 0;
+}
+
+.about-body {
+    font-family: Poppins;
+    color: white;
+    width: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-header {
+        font-size: 70px;
+        top: 5%;
+    }
+
+    .about-body {
+        font-size: 10px;
+        margin: 10px 0 0 0;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .about-header {
+        font-size: 90px;
+        top: 5%;
+    }
+
+    .about-body {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .about-header {
+        font-size: 120px;
+        top: 5%;
+    }
+
+    .about-body {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .about-header {
+        font-size: 150px;
+        top: 5%;
+    }
+
+    .about-body {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .about-header {
+        font-size: 200px;
+        top: 5%;
+    }
+
+    .about-body {
+        font-size: 30px;
+    }
+}

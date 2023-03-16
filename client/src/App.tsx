@@ -2,18 +2,24 @@ import React from 'react';
 import './App.css';
 import "./fonts/Surfing Capital.ttf";
 import HomeScreen from "./Views/Home/HomeScreen";
+import EventsScreen from "./Views/Events/EventsScreen";
 import AboutScreen from "./Views/About/AboutScreen";
+import GalleryScreen from "./Views/Gallery/GalleryScreen";
 import ContactScreen from "./Views/Contact/ContactScreen";
-import NoticesScreen from "./Views/Notices/NoticesScreen";
-import SeriesScreen from "./Views/Series/SeriesScreen";
-import Navbar from "./Views/Navbar/Navbar";
+import Footer from "./Views/Footer/Footer";
 
 const App = (): JSX.Element => {
     return (
-        <div>
-            <Navbar />
-            <HomeScreen />
-        </div>
+        <>
+            <div className="container">
+                <HomeScreen/>
+                <AboutScreen />
+                <EventsScreen/>
+                <GalleryScreen />
+                <ContactScreen />
+                <Footer />
+            </div>
+        </>
     );
 }
 

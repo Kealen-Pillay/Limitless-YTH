@@ -1,0 +1,47 @@
+.gallery-container {
+    width: 100%;
+    height: 80%;
+    background-color: #1e1e1e;
+}
+
+.slide-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 700px;
+}
+
+.each-slide-effect > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+}
+
+@media only screen and (min-width: 600px) {
+    .slide-img {
+        height: 700px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .slide-img {
+        height: 800px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .slide-img {
+        height: 900px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .slide-img {
+        height: 1000px;
+    }
+}
