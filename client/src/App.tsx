@@ -6,6 +6,7 @@ import EventsScreen from "./Views/Events/EventsScreen";
 import AboutScreen from "./Views/About/AboutScreen";
 import GalleryScreen from "./Views/Gallery/GalleryScreen";
 import ContactScreen from "./Views/Contact/ContactScreen";
+import Footer from "./Views/Footer/Footer";
 
 const App = (): JSX.Element => {
     return (
@@ -16,6 +17,7 @@ const App = (): JSX.Element => {
                 <EventsScreen/>
                 <GalleryScreen />
                 <ContactScreen />
+                <Footer />
             </div>
         </>
     );
