@@ -33,6 +33,9 @@ const ContactScreen = (): JSX.Element => {
                                 <span>Your Message</span>
                                 <textarea required/>
                             </div>
+                            <button>
+                                Send Message
+                            </button>
                         </form>
                     </div>
                 </div>
