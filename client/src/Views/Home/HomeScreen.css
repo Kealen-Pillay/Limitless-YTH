@@ -23,7 +23,7 @@ body {
 @media only screen and (max-width: 600px) {
     .home-header {
         font-size: 75px;
-        top: 10%;
+        top: 5%;
     }
 }
 
@@ -31,7 +31,7 @@ body {
 @media only screen and (min-width: 600px) {
     .home-header {
         font-size: 120px;
-        top: 10%;
+        top: 5%;
     }
 }
 
@@ -39,7 +39,7 @@ body {
 @media only screen and (min-width: 768px) {
     .home-header {
         font-size: 150px;
-        top: 10%;
+        top: 5%;
     }
 }
 
@@ -47,7 +47,7 @@ body {
 @media only screen and (min-width: 992px) {
     .home-header {
         font-size: 200px;
-        top: 10%;
+        top: 5%;
     }
 }
 
@@ -55,7 +55,7 @@ body {
 @media only screen and (min-width: 1200px) {
     .home-header {
         font-size: 250px;
-        top: 10%;
+        top: 5%;
     }
 }
 
