@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\""
+    "start": "node dist/js/app.js"
   },
   "dependencies": {
     "@types/node": "^18.14.6",
