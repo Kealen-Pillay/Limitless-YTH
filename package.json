@@ -5,6 +5,6 @@
   },
   "scripts": {
     "build": "cd server && tsc",
-    "start": "cd server && concurrently \"tsc -w\" \"nodemon dist/js/app.js\""
+    "start": "cd server && concurrently \"tsc -w\" \"node dist/js/app.js\""
   }
 }
