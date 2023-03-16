@@ -1,0 +1,10 @@
+{
+  "name": "Limitless-YTH",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "scripts": {
+    "build": "cd server && tsc",
+    "start": "cd server && concurrently \"tsc -w\" \"nodemon dist/js/app.js\""
+  }
+}
