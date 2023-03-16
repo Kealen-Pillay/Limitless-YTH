@@ -4,6 +4,6 @@
   "dependencies": {
   },
   "scripts": {
-    "start": "cd server && node dist/js/app.js"
+    "start": "cd server && npm run start"
   }
 }
