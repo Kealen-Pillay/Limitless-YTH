@@ -5,9 +5,7 @@
   "author": "kealen pillay",
   "license": "MIT",
   "scripts": {
-    "build": "rimraf dist && tsc",
-    "ts.check": "tsc --project tsconfig.json",
-    "add-build": "git add dist",
+    "build": "tsc",
     "start": "node dist/js/index.js"
   },
   "dependencies": {
@@ -26,10 +24,5 @@
     "concurrently": "^7.6.0",
     "pre-commit": "^1.2.2",
     "rimraf": "^4.4.0"
-  },
-  "pre-commit": [
-    "ts.check",
-    "build",
-    "add-build"
-  ]
+  }
 }
