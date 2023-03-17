@@ -1,9 +1,0 @@
-{
-  "name": "Limitless-YTH",
-  "version": "1.0.0",
-  "dependencies": {
-  },
-  "scripts": {
-    "start": "cd server &&  npm start"
-  }
-}
