@@ -1,7 +1,7 @@
 import axios, {AxiosResponse} from "axios";
 import {ApiAboutDataType, ApiEventDataType} from "./type";
 
-const baseUrl: string = "http://localhost:5000";
+const baseUrl: string = "https://limitless-yth-git-development-kealen-pillay.vercel.app/";
 
 export const getEvents = async (): Promise<AxiosResponse<ApiEventDataType>> => {
     try {
