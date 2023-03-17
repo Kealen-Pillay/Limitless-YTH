@@ -4,6 +4,6 @@
   "dependencies": {
   },
   "scripts": {
-    "start": "cd server && yarn start"
+    "start": "cd server &&  npm start"
   }
 }
