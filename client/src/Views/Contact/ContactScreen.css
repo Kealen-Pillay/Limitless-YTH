@@ -41,7 +41,7 @@ span {
     margin-bottom: 5px;
 }
 
-button {
+.send-button {
     background-color: white;
     color: #ff014f;
     border: none;
@@ -53,7 +53,7 @@ button {
     font-weight: 400;
 }
 
-button:hover {
+.send-button:hover {
     color: white;
     background-color: #ff014f;
     transition: 0.5s;
@@ -117,7 +117,7 @@ textarea {
         height: 70px;
     }
 
-    button {
+    .send-button {
         height: 40px;
         margin-top: 30px;
     }
@@ -162,7 +162,7 @@ textarea {
         height: 70px;
     }
 
-    button {
+    .send-button {
         height: 40px;
         margin-top: 30px;
     }
@@ -213,7 +213,7 @@ textarea {
         height: 150px;
     }
 
-    button {
+    .send-button {
         height: 50px;
         font-size: 15px;
     }
@@ -268,7 +268,7 @@ textarea {
         height: 70px;
     }
 
-    button {
+    .send-button {
         height: 60px;
         margin-top: 30px;
         font-size: 20px;
@@ -326,7 +326,7 @@ textarea {
         height: 70px;
     }
 
-    button {
+    .send-button {
         height: 70px;
         margin-top: 30px;
         font-size: 25px;
