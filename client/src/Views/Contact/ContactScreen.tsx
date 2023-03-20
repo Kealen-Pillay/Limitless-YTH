@@ -35,7 +35,7 @@ const ContactScreen = (): JSX.Element => {
                                     <textarea required/>
                                 </div>
                             </div>
-                            <button>
+                            <button className="send-button">
                                 Send Message
                             </button>
                         </form>
