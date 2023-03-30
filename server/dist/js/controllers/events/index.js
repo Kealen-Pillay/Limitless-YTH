@@ -55,9 +55,7 @@ var getEvents = function (req, res) { return __awaiter(void 0, void 0, void 0, f
                 events && events.map(function (event) {
                     event.elapsed ? elapsedEvents_1.push(event) : orderedEvents_1.push(event);
                 });
-                /**
-                 * Order events by date in ascending order
-                 */
+                events.sort(function (a, b) { return a.date.getTime() - b.date.getTime(); });
                 res.status(200).json({ events: events });
                 return [3 /*break*/, 3];
             case 2:

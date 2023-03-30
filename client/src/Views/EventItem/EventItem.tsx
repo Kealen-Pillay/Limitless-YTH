@@ -4,14 +4,9 @@ import "../EventItem/EventItem.css";
 const EventItem = ({event}: EventProps): JSX.Element => {
 
     const formatDate = (eventDate: Date): string => {
-        return new Date(eventDate).toLocaleDateString('en-us',
-            {
-                weekday:"long",
-                year:"numeric",
-                month:"short",
-                day:"numeric"
-            }
-        )
+        const date: Date = new Date(eventDate);
+        date.setDate(date.getDate() - 1);
+        return date.toDateString();
     }
 
     return (
