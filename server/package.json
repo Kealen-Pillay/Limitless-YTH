@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/js/index.js"
+    "start": "node dist/js/index.js",
+    "dev": "concurrently \"tsc -w\" \"nodemon dist/js/index.js\""
   },
   "dependencies": {
     "@types/node": "^18.14.6",

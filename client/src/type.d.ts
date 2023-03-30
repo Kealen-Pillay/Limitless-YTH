@@ -4,7 +4,7 @@
 interface IEvent {
     _id?: string,
     name: string,
-    date: string,
+    date: Date,
     elapsed: boolean,
 }
 

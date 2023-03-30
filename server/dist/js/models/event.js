@@ -7,7 +7,7 @@ var eventSchema = new mongoose_1.Schema({
         required: true,
     },
     date: {
-        type: String,
+        type: Date,
         required: true,
     },
     elapsed: {

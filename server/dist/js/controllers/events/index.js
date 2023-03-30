@@ -42,14 +42,20 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.getEvents = void 0;
 var event_1 = __importDefault(require("../../models/event"));
 var getEvents = function (req, res) { return __awaiter(void 0, void 0, void 0, function () {
-    var events, error_1;
+    var elapsedEvents_1, orderedEvents_1, events, error_1;
     return __generator(this, function (_a) {
         switch (_a.label) {
             case 0:
                 _a.trys.push([0, 2, , 3]);
+                elapsedEvents_1 = [];
+                orderedEvents_1 = [];
                 return [4 /*yield*/, event_1.default.find()];
             case 1:
                 events = _a.sent();
+                events && events.map(function (event) {
+                    event.elapsed ? elapsedEvents_1.push(event) : orderedEvents_1.push(event);
+                });
+                events.sort(function (a, b) { return a.date.getTime() - b.date.getTime(); });
                 res.status(200).json({ events: events });
                 return [3 /*break*/, 3];
             case 2:
