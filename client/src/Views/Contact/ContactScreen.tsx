@@ -14,25 +14,25 @@ const ContactScreen = (): JSX.Element => {
                             <div className="personals-input-container">
                                 <div className="personals-input">
                                     <span>Full Name</span>
-                                    <input required type="text"/>
+                                    <input name="name_val" required type="text"/>
                                 </div>
                                 <div className="personals-input">
                                     <span>Phone Number</span>
-                                    <input required type="text"/>
+                                    <input name="phone_val" required type="text"/>
                                 </div>
                             </div>
                             <div className="other-contact-input-container">
                                 <div className="email-input-container">
                                     <span>Email</span>
-                                    <input required type="email"/>
+                                    <input name="email_val" required type="email"/>
                                 </div>
                                 <div className="subject-input-container">
                                     <span>Subject</span>
-                                    <input required type="text"/>
+                                    <input name="subject_val" required type="text"/>
                                 </div>
                                 <div className="message-input-container">
                                     <span>Your Message</span>
-                                    <textarea required/>
+                                    <textarea name="message_val" required/>
                                 </div>
                             </div>
                             <button className="send-button">
