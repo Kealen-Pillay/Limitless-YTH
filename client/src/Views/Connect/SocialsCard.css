@@ -1,0 +1,79 @@
+.socials-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #e2e8ec;
+    border-radius: 5px;
+    border: none;
+}
+
+.button-contents {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+}
+
+.socials-card:hover {
+    background-color: #ff014f;
+    transform: translateY(-10%);
+    transition: 0.2s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+    span {
+        font-size: 15px;
+    }
+
+    .socials-card {
+        width: 250px;
+        margin: 10px 0 0 10px;
+    }
+
+    .socials-card svg {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    span {
+        font-size: 15px;
+    }
+
+    .socials-card {
+        width: 350px;
+        margin: 10px 0 0 10px
+    }
+
+    .socials-card svg {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    span {
+        font-size: 18px;
+    }
+
+    .socials-card {
+        width: 350px;
+        margin: 20px 0 0 20px
+    }
+
+    .socials-card svg {
+        height: 35px;
+        width: 35px;
+    }
+}

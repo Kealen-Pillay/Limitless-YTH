@@ -6,60 +6,20 @@
 
 .footer-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-top: 20px;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-}
-
-.icon {
-    color: white;
+    width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
-    .icon {
-        margin: 0 2px 0 2px;
-    }
-
     .footer-text {
-        font-size: 10px;
-    }
-
-    .footer-container {
-        width: 70%;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    .icon {
-        margin: 0 5px 0 5px;
-    }
-
-    .footer-container {
-        width: 70%;
+        font-size: 15px;
     }
 }
 
 @media only screen and (min-width: 768px) {
-    .icon {
-        margin: 0 10px 0 10px;
-    }
-
     .footer-text {
         font-size: 20px;
-    }
-
-    .footer-container {
-        width: 70%;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .footer-container {
-        width: 80%;
     }
 }
