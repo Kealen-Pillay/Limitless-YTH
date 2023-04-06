@@ -16,9 +16,9 @@ const Navbar = (): JSX.Element => {
                 <nav className="web-navbar">
                     <a href="#home">Home</a>
                     <a href="#about">About</a>
-                    <a href="#events">Events</a>
+                    <a href="#notices">Notices</a>
                     <a href="#gallery">Gallery</a>
-                    <a href="#contact">Contact</a>
+                    <a href="#connect">Connect</a>
                 </nav>
                 <div className="mobile-navbar">
                     <div className="line"></div>

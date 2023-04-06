@@ -22,11 +22,11 @@ const EventsScreen = (): JSX.Element => {
 
     return (
         <>
-            <section id="events">
+            <section id="notices">
                 <div className="events-container">
                     <img src={Waves} alt={"waves"}/>
                     <p className="events-header">
-                        Upcoming Events
+                        Notices
                     </p>
                     <div className="events-list">
                         {events && events.map((event: IEvent) => {

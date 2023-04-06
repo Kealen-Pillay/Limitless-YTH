@@ -20,7 +20,7 @@
     align-items: center;
     flex-direction: column;
     position: absolute;
-    top: 25%;
+    top: 40%;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -34,8 +34,8 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .events-header {
-        font-size: 50px;
-        top: 5%;
+        font-size: 85px;
+        top: 10%;
     }
 }
 /**/
