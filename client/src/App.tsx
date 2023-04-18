@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import "./fonts/Surfing Capital.ttf";
 import HomeScreen from "./Views/Home/HomeScreen";
-import EventsScreen from "./Views/Events/EventsScreen";
+import NoticesScreen from "./Views/Notices/NoticesScreen";
 import AboutScreen from "./Views/About/AboutScreen";
 import GalleryScreen from "./Views/Gallery/GalleryScreen";
 import ConnectScreen from "./Views/Connect/ConnectScreen";
@@ -14,7 +14,7 @@ const App = (): JSX.Element => {
             <div className="container">
                 <HomeScreen/>
                 <AboutScreen />
-                <EventsScreen/>
+                <NoticesScreen/>
                 <GalleryScreen />
                 <ConnectScreen />
                 <Footer />
