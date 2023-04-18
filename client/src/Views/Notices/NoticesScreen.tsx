@@ -1,11 +1,11 @@
 import {useEffect, useState} from "react";
 import Waves from "../../images/waves.jpg";
-import "./EventsScreen.css";
+import "./NoticesScreen.css";
 import {IEvent} from "../../type";
 import {getEvents} from "../../API";
 import EventItem from "../EventItem/EventItem";
 
-const EventsScreen = (): JSX.Element => {
+const NoticesScreen = (): JSX.Element => {
     const [events, setEvents] = useState<IEvent[]>([]);
 
     useEffect(() => {
@@ -41,4 +41,4 @@ const EventsScreen = (): JSX.Element => {
     );
 };
 
-export default EventsScreen;
+export default NoticesScreen;
